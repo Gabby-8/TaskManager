@@ -9,8 +9,8 @@ public class TaskController : ControllerBase
 {
     private static List<TaskItem> Tasks = new()
     {
-        new TaskItem { Id = 1, Title = "Learn React", IsCompleted = false },
-        new TaskItem { Id = 2, Title = "Learn C# API", IsCompleted = true }
+        new TaskItem { Id = 1, Title = "Test Item 1", IsCompleted = false },
+        new TaskItem { Id = 2, Title = "Test Item 2", IsCompleted = true }
     };
 
     [HttpGet]
